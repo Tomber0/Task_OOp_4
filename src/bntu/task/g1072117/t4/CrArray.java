@@ -11,7 +11,6 @@ public class CrArray {
 		int i = random.nextInt(sred + 1);
 		i += min;
 		
-		
 		return i;
 	}
 	int [][] CreateArray(int n,int m) {
@@ -25,16 +24,11 @@ public class CrArray {
 			//array[i][j] = random.nextInt();
 			System.out.print(array[i][j]);
 			System.out.print("   ");
-			
 			}
 		System.out.println();
 		}
-		
-    
-    
     	return array;
 	}
-	
 }
 /*
  * 
